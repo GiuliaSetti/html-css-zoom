@@ -61,6 +61,34 @@ nav{
 
 /* grid-container */
 
+#grid-container{
+    width: 90%;
+    height: 100%;
+
+    margin: 0 auto;
+    
+    padding: 10px;
+
+    background-color:midnightblue;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    overflow-y: auto;
+}
+
+.user-card{
+    width: calc(100% / 7 - 6px);
+    height: calc(100% / 5);
+
+    margin: 3px 3px;
+    padding: 1px;
+}
+
+
+/* user-video */
+
+
 
 
 
