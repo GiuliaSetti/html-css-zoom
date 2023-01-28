@@ -30,6 +30,7 @@ button{
     cursor: pointer;
 
     border: transparent;
+    background-color: transparent;
 }
 
 img{
@@ -154,17 +155,30 @@ img{
 
     padding: 2px;
 
-    display: flex;
-    
+    display: flex;   
 }
 
 /* inside navabar - divs */
 
-#right-btns > div{
+#right-btns > button{
     width: 50%;
     height: 100%;
+}
 
-    background-color: darkslategrey;
+#mic, #cam{
+    position: relative;
+}
+
+.central > i{
+    font-size: 30px;
+    display: block;
+    padding: 3px;
+}
+
+.arrow i{
+    position: absolute;
+    top:5px;
+    right:5px;
 }
 
 #tools > div{
@@ -202,6 +216,18 @@ img{
 .btn:hover{
     background-color: rgba(181, 179, 179, 0.7);
 } */
+
+/* #right-btns:hover button{
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+.arrow:hover i{
+    background-color: rgb(129, 129, 129);
+    
+    border-radius: 5px;
+} */
+
 
 /* img:hover{
     transform: scale(1.03);
