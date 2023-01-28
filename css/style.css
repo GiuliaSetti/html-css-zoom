@@ -230,24 +230,13 @@ li button{
 
 /* exit call */
 
+#exit-call > button{
+    width: 80%;
+    margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#exit-call > div{
-    
-    width: 100%;
-    background-color: darkslategray;
+#exit{
+    font-weight: bold;
 }
 
 
@@ -262,36 +251,38 @@ li button{
 
 /* hover */
 
-
-/* .btn:hover{
+/* top */
+.btn:hover{
     background-color: rgba(181, 179, 179, 0.7);
 }
 
-#right-btns:hover button{
-    background-color: dimgray;
-    border-radius: 10px;
-}
 
-.arrow:hover i{
-    background-color: rgb(129, 129, 129);
-    
-    border-radius: 5px;
-}
+/* footer */
 
 
-li:hover > button{
+/* #footer-navbar button:hover{
     background-color:dimgray ;
     border-radius: 10px;
 }
 
+.arrow:hover i{
+    background-color: rgb(129, 129, 129);   
+    border-radius: 5px;
+}
 
-img:hover{
+#exit:hover{
+    color: rgb(133, 2, 2);
+}
+
+
+/* image video */
+/* img:hover{
     transform: scale(1.03);
 }
 
 .user-name:hover{
     filter: brightness(90%);
-} */
+} */ */
 
 
 
