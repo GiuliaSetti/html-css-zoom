@@ -6,7 +6,7 @@
 
 
 .debug *{
-    border: 1px solid cyan;
+    /* border: 1px solid cyan; */
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -133,7 +133,7 @@ img{
 
 #footer-navbar{
     width: 100%;
-    height: 10vh;
+    height: 9.8vh;
 
     background-color: rgb(40, 40, 40);
 
@@ -240,21 +240,15 @@ li button{
 }
 
 
-
-
-
-
-
-
-
-
+/* per provare */ 
 
 /* hover */
 
 /* top */
-.btn:hover{
+
+/* .btn:hover{
     background-color: rgba(181, 179, 179, 0.7);
-}
+} */
 
 
 /* footer */
@@ -282,10 +276,32 @@ li button{
 
 .user-name:hover{
     filter: brightness(90%);
-} */ */
+} */ 
 
 
+/* scrollbar */
 
+/* width */
+/* ::-webkit-scrollbar {
+    width: 8px;
+  }
+   */
+  /* Track */
+  /* ::-webkit-scrollbar-track {
+    background: rgb(48, 45, 45);
+  } */
+  
+  /* Handle */
+  /* ::-webkit-scrollbar-thumb {
+    background: #888;
+
+    border-radius: 8px;
+  } */
+  
+  /* Handle on hover */
+  /* ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } */
 
 
 
