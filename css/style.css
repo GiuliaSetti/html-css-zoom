@@ -115,12 +115,14 @@ img{
     background-color: rgba(142, 142, 142, 0.6);
 
     position: absolute;
-    bottom: 2px;
-    left: 2px;
+    bottom: 0px;
+    left: 0px;
 
     font-size: 14px;
 
     margin: 1px;
+
+    padding: 2px;
 
     display: flex;
     flex-wrap: wrap;
@@ -226,6 +228,7 @@ li button{
 
 #tools #menu{
     width: 2%;
+    margin: 3px;
 }
 
 /* exit call */
@@ -246,15 +249,13 @@ li button{
 
 /* top */
 
-/* .btn:hover{
+.btn:hover{
     background-color: rgba(181, 179, 179, 0.7);
-} */
-
+}
 
 /* footer */
 
-
-/* #footer-navbar button:hover{
+#footer-navbar button:hover{
     background-color:dimgray ;
     border-radius: 10px;
 }
@@ -270,38 +271,40 @@ li button{
 
 
 /* image video */
-/* img:hover{
-    transform: scale(1.03);
+
+img:hover{
+    transform: scale(1.02);
 }
 
 .user-name:hover{
-    filter: brightness(90%);
-} */ 
+    filter: brightness(85%);
+    cursor: pointer;
+} 
 
 
 /* scrollbar */
 
 /* width */
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 8px;
-  }
-   */
-  /* Track */
-  /* ::-webkit-scrollbar-track {
-    background: rgb(48, 45, 45);
-  } */
+}
   
-  /* Handle */
-  /* ::-webkit-scrollbar-thumb {
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(48, 45, 45);
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: #888;
 
     border-radius: 8px;
-  } */
+}
   
-  /* Handle on hover */
-  /* ::-webkit-scrollbar-thumb:hover {
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
     background: #555;
-  } */
+}
 
 
 
