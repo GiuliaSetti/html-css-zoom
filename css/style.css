@@ -36,6 +36,8 @@ button{
 img{
     width: 100%;
     height: 100%;
+
+    overflow-x: hidden;
 }
 
 /* topnav-btns */
@@ -96,6 +98,8 @@ img{
     width: calc(100% / 7 - 4px);
     height: calc(100% / 5);
 
+    min-width: 150px;
+
     margin: 2px 2px;
     padding: 1px;
 
@@ -145,7 +149,7 @@ img{
 
 
 #right-btns, #exit-call{
-    width: 10%; 
+    min-width: 10%; 
     display: flex;
     gap: 2px;
     padding: 2px;
@@ -156,7 +160,10 @@ img{
 
     padding: 1px;
 
-    display: flex;   
+    display: flex; 
+    /* object-fit: scale-down;   */
+    
+    
 }
 
 /* inside navabar - divs */
@@ -169,23 +176,40 @@ img{
 
 #mic, #cam, #menu{
     position: relative;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
+    gap: 5px;
+
 }
 
 .central > i{
     font-size: 30px;
 }
 
+.central{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+}
+/* 
 .arrow i{
     position: absolute;
     top: 0px;
     right: 0px;
-}
+} */
 
 /* central part */
 
 
 #tools .icon{
     width: 50%;
+
+    overflow: hidden;
+
 }
 
 ul{
@@ -200,8 +224,10 @@ ul{
 ul > li{
     width: calc(100% / 4);
     height: 100%;
+    min-width: 60px;
 
     text-align: center;
+    
 
 }
 
